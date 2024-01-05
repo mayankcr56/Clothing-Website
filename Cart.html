@@ -1,0 +1,1152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fashion Template</title>
+    <!-- Favicons -->
+    <link rel="shortcut icon" href="images/favicon.ico">
+
+    <!-- Vendor CSS (Icon Font) -->
+
+    <link rel="stylesheet" href="css/vendor/fontawesome.min.css">
+    <link rel="stylesheet" href="css/vendor/pe-icon-7-stroke.min.css">
+
+
+    <!-- Plugins CSS (All Plugins Files) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/plugins/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="css/plugins/animate.min.css" />
+    <link rel="stylesheet" href="css/plugins/aos.min.css" />
+    <link rel="stylesheet" href="css/plugins/nice-select.min.css" />
+    <link rel="stylesheet" href="css/plugins/jquery-ui.min.css" />
+    <link rel="stylesheet" href="css/plugins/lightgallery.min.css" />
+
+    <!-- Main Style CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+     <!-- add icon link -->
+     <link rel = "icon" href = 
+     "logos/logo-dark-icon.png" 
+             type = "image/x-icon">
+             <style>
+                
+                .zoom {
+                  padding: 30px;
+                  transition: transform .2s;
+                  width: 160px;
+                  height: 160px;
+                  margin: 0 auto;
+                }
+                
+                .zoom:hover {
+                  -ms-transform: scale(1.5); /* IE 9 */
+                  -webkit-transform: scale(1.5); /* Safari 3-8 */
+                  transform: scale(1.5); 
+                }
+                </style>
+</head>
+
+<body>
+    <div class="header section">
+        <!-- Header Bottom Start -->
+        <div class="header-bottom">
+            <div class="header-sticky">
+                <div class="container">
+                    <div class="row align-items-center">
+
+                        <!-- Header Logo Start -->
+                        <div class="col-xl-2 col-6">
+                            <div class="header-logo">
+                                <a href="index.html"><img src="logos/logo-light.png" alt="Site Logo"
+                                        style="width: 130px;" /></a>
+                            </div>
+                        </div>
+                        <!-- Header Logo End -->
+
+                        <!-- Header Menu Start -->
+                        <div class="col-xl-8 d-none d-xl-block">
+                            <div class="main-menu position-relative">
+                                <ul>
+                                    <li class="has-children">
+                                        <a href="#"><span>Home</span></a>
+                                        <!-- <ul class="sub-menu">
+                                            <li><a href="index.html">Home 1</a></li>
+                                            <li><a href="index-2.html">Home 2</a></li>
+                                        </ul> -->
+                                    </li>
+                                    <li class="has-children position-static">
+                                        <a href="#"><span>Shop</span> <i class="fa fa-angle-down"></i></a>
+                                        <ul class="mega-menu row-cols-4">
+                                            <li class="col">
+                                                <h4 class="mega-menu-title">Men's Clothing</h4>
+                                                <ul class="mb-n2">
+                                                    <li><a href="shop.html">T-Shirts</a></li>
+                                                    <li><a href="shop.html">Shirts</a></li>
+                                                    <li><a href="shop.html">Denims</a></li>
+                                                    <li><a href="shop.html">Jeans</a></li>
+                                                    <li><a href="shop.html">Party Wears</a></li>
+                                                    <li><a href="shop.html">Formal Wears</a></li>
+                                                </ul>
+                                            </li>
+                                            <li class="col">
+                                                <h4 class="mega-menu-title">Women's Clothing</h4>
+                                                <ul class="mb-n2">
+                                                    <li><a href="shop.html">Dresses</a></li>
+                                                    <li><a href="shop.html">Long-sleeve top</a></li>
+                                                    <li><a href="shop.html">Sheath dress</a></li>
+                                                    <li><a href="shop.html">Gym clothes</a></li>
+                                                    <li><a href="shop.html">Jeans</a></li>
+                                                    <li><a href="shop.html">Skirt</a></li>
+                                                </ul>
+                                            </li>
+                                            <li class="col">
+                                                <h4 class="mega-menu-title">Kid's Clothings</h4>
+                                                <ul class="mb-n2">
+                                                    <li><a href="shop.html">Skirts</a></li>
+                                                    <li><a href="shop.html">T-Shirts & Tops</a></li>
+                                                    <li><a href="shop.html">Dresses</a></li>
+                                                    <li><a href="shop.html">Shorts</a></li>
+                                                    <li><a href="shop.html">Jumpsuits</a></li>
+                                                    <li><a href="shop.html">Denims</a></li>
+                                                </ul>
+                                            </li>
+                                            <li class="col">
+                                                <h4 class="mega-menu-title">Other</h4>
+                                                <ul class="mb-n2">
+                                                    <li><a href="shop.html">Sweatpants</a></li>
+                                                    <li><a href="shop.html">Crop top</a></li>
+                                                    <li><a href="shop.html">Hoodie</a></li>
+                                                    <li><a href="shop.html">Hawaiian shirt</a></li>
+                                                    <li><a href="shop.html">Rugby shirt</a></li>
+                                                    <li><a href="shop.html">Waistcoat</a></li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <!-- <li class="has-children">
+                                        <a href="#"><span>Pages</span> <i class="fa fa-angle-down"></i></a>
+                                        <ul class="sub-menu">
+                                            <li><a href="about.html">About</a></li>
+                                            <li><a href="contact.html">Contact</a></li>
+                                            <li><a href="faq.html">Faq</a></li>
+                                            <li><a href="404-error.html">404 Error</a></li>
+                                        </ul>
+                                    </li> -->
+                                    <!-- <li class="has-children">
+                                        <a href="#"><span>Blog</span> <i class="fa fa-angle-down"></i></a>
+                                        <ul class="sub-menu">
+                                            <li><a href="blog.html">Blog</a></li>
+                                            <li><a href="blog-left-sidebar.html">Blog Left Sidebar</a></li>
+                                            <li><a href="blog-right-sidebar.html">Blog Right Sidebar</a></li>
+                                            <li><a href="blog-details.html">Blog Details</a></li>
+                                            <li><a href="blog-details-sidebar.html">Blog Details Sidebar</a></li>
+                                        </ul>
+                                    </li> -->
+                                    <li><a href="About_Us.html"> <span>About Us</span></a></li>
+                                    <li><a href="Contact_Us.html"> <span>Contact</span></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!-- Header Menu End -->
+
+                        <!-- Header Action Start -->
+                        <div class="col-xl-2 col-6">
+                            <div class="header-actions">
+
+                                <!-- Search Header Action Button Start -->
+                                <a href="javascript:void(0)" id="search" class="header-action-btn header-action-btn-search"><i
+                                        class="fa-solid fa-magnifying-glass"></i></a>
+                                <!-- Search Header Action Button End -->
+
+                                <!-- User Account Header Action Button Start -->
+                                <a href="Login_Register.html" class="header-action-btn d-none d-md-block"><i
+                                        class="fa-regular fa-user"></i></a>
+                                <!-- User Account Header Action Button End -->
+
+                                <!-- Wishlist Header Action Button Start -->
+                                <a href="Wishlist.html"
+                                    class="header-action-btn header-action-btn-wishlist d-none d-md-block">
+                                    <i class="fa-regular fa-heart"></i>
+                                </a>
+                                <!-- Wishlist Header Action Button End -->
+
+                                <!-- Shopping Cart Header Action Button Start -->
+                                <a href="javascript:void(0)" class="header-action-btn header-action-btn-cart">
+                                    <i class="fa-solid fa-bag-shopping"></i>
+                                    <span class="header-action-num">3</span>
+                                </a>
+                                <!-- Shopping Cart Header Action Button End -->
+
+                                <!-- Mobile Menu Hambarger Action Button Start -->
+                                <a href="javascript:void(0)"
+                                    class="header-action-btn header-action-btn-menu d-xl-none d-lg-block">
+                                    <i class="fa fa-bars"></i>
+                                </a>
+                                <!-- Mobile Menu Hambarger Action Button End -->
+
+                            </div>
+                        </div>
+                        <!-- Header Action End -->
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Header Bottom End -->
+
+        <!-- Mobile Menu Start -->
+        <div class="mobile-menu-wrapper">
+            <div class="offcanvas-overlay"></div>
+
+            <!-- Mobile Menu Inner Start -->
+            <div class="mobile-menu-inner">
+
+                <!-- Button Close Start -->
+                <div class="offcanvas-btn-close">
+                    <i class="fa-solid fa-xmark"></i>
+                </div>
+                <!-- Button Close End -->
+
+                <!-- Mobile Menu Start -->
+                <div class="mobile-navigation">
+                    <nav>
+                        <ul class="mobile-menu">
+                            <li class="has-children">
+                                <a href="index.html">Home</a>
+                            </li>
+                            <li class="has-children">
+                                <a href="#">Shop <i class="fa fa-angle-down" aria-hidden="true"></i></a>
+                                <ul class="dropdown">
+                                    <li>
+                                        <a href="shop.html"><h5>Men's Clothing</h5></a>
+                                        <ul class="submenu">
+                                            <li><a href="shop.html">Shirts</a></li>
+                                            <li><a href="shop.html">Pants</a></li>
+                                            <li><a href="shop.html">Jackets</a></li>
+                                            <li><a href="shop.html">Accessories</a></li>
+                                            <li><a href="shop.html">Clearance</a></li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="shop.html"><h5>Women's Clothing</h5></a>
+                                        <ul class="submenu">
+                                            <li><a href="shop.html">Dresses</a></li>
+                                            <li><a href="shop.html">Tops</a></li>
+                                            <li><a href="shop.html">Skirts</a></li>
+                                            <li><a href="shop.html">Shoes</a></li>
+                                            <li><a href="shop.html">Clearance</a></li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="shop.html"><h5>Kid's Clothing</h5></a>
+                                        <ul class="submenu">
+                                            <li><a href="shop.html">Boys</a></li>
+                                            <li><a href="shop.html">Girls</a></li>
+                                            <li><a href="shop.html">Infants</a></li>
+                                            <li><a href="shop.html">Accessories</a></li>
+                                            <li><a href="shop.html">Clearance</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="shop.html"><h5>Others</h5></a></li>
+                                </ul>
+                                
+                                
+                            </li>
+                            <li class="has-children">
+                                <a href="#">Product <i class="fa fa-angle-down" aria-hidden="true"></i></a>
+                                <ul class="dropdown">
+                                    <li><a href="shop.html"></a>T-shirts</li>
+                                    <li><a href="shop.html"></a>Dresses</li>
+                                    <li><a href="shop.html"></a>Long-Sleeve Top</li>
+                                    <li><a href="shop.html"></a>Crop Top</li>
+                                    <li><a href="shop.html"></a>Hoodie</li>
+                                    <li><a href="shop.html"></a>Waistcoat</li>
+                                    <li><a href="shop.html"></a>Denims</li>
+                                    <li><a href="shop.html"></a>Gym Clothes</li>
+                                    <li><a href="shop.html"></a>Jeans</li>
+                                </ul>
+                            </li>
+                            <!-- <li class="has-children">
+                                <a href="#">Pages <i class="fa fa-angle-down" aria-hidden="true"></i></a>
+                                <ul class="dropdown">
+                                    <li><a href="about.html">About Us</a></li>
+                                    <li><a href="contact.html">Contact</a></li>
+                                    <li><a href="faq.html">Faq</a></li>
+                                    <li><a href="404-error.html">Error 404</a></li>
+                                    <li><a href="my-account.html">My Account</a></li>
+                                    <li><a href="login-register.html">Loging | Register</a></li>
+                                </ul>
+                            </li>
+                            <li class="has-children">
+                                <a href="#">Blog <i class="fa fa-angle-down" aria-hidden="true"></i></a>
+                                <ul class="dropdown">
+                                    <li><a href="blog.html">Blog</a></li>
+                                    <li><a href="blog-left-sidebar.html">Blog Left Sidebar</a></li>
+                                    <li><a href="blog-right-sidebar.html">Blog Right Sidebar</a></li>
+                                    <li><a href="blog-details.html">Blog Details</a></li>
+                                    <li><a href="blog-details-sidebar.html">Blog Details Sidebar</a></li>
+                                </ul>
+                            </li> -->
+                            <li><a href="About_Us.html">About</a></li>
+                            <li><a href="Contact_Us.html">Contact</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <!-- Mobile Menu End -->
+
+
+
+                <!-- Contact Links/Social Links Start -->
+                <div class="mt-auto">
+
+                    <!-- Contact Links Start -->
+                    <ul class="contact-links">
+                        <li><i class="fa fa-phone"></i><a href="Contact_Us.html"> +012 3456 789 123</a></li>
+                        <li><i class="fa fa-envelope-o"></i><a href="Contact_Us.html"> info@example.com</a></li>
+                        <li><i class="fa fa-clock-o"></i> <span>Monday - Sunday 9.00 - 18.00</span> </li>
+                    </ul>
+                    <!-- Contact Links End -->
+
+                    <!-- Social Widget Start -->
+                    <div class="widget-social">
+                        <a href="https://facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://Instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://twitter.com/"><i class="fa-brands fa-x-twitter"></i></a>
+                        <a href="https://Pinterest.com/"><i class="fa-brands fa-pinterest"></i></a>
+                    </div>
+                    <!-- Social Widget Ende -->
+                </div>
+                <!-- Contact Links/Social Links End -->
+            </div>
+            <!-- Mobile Menu Inner End -->
+        </div>
+        <!-- Mobile Menu End -->
+
+        <!-- Offcanvas Search Start -->
+        <div class="offcanvas-search">
+            <div class="offcanvas-search-inner">
+
+                <!-- Button Close Start -->
+                <div class="offcanvas-btn-close">
+                    <i class="fa-solid fa-xmark"></i>
+                </div>
+                <!-- Button Close End -->
+
+                <!-- Offcanvas Search Form Start -->
+                <form class="offcanvas-search-form" action="#">
+                    <input type="text" placeholder="Search Here..." class="offcanvas-search-input">
+                </form>
+                <!-- Offcanvas Search Form End -->
+
+            </div>
+        </div>
+        <!-- Offcanvas Search End -->
+
+        <!-- Cart Offcanvas Start -->
+        <div class="cart-offcanvas-wrapper">
+            <div class="offcanvas-overlay"></div>
+
+            <!-- Cart Offcanvas Inner Start -->
+            <div class="cart-offcanvas-inner">
+
+                <!-- Button Close Start -->
+                <div class="offcanvas-btn-close">
+                    <i class="fa-solid fa-xmark"></i>
+                </div>
+                <!-- Button Close End -->
+
+                <!-- Offcanvas Cart Content Start -->
+                <div class="offcanvas-cart-content">
+                    <!-- Offcanvas Cart Title Start -->
+                    <h2 class="offcanvas-cart-title mb-10">Cart Page is Open.</h2>
+                    <!-- Offcanvas Cart Title End -->
+
+                    <!-- Cart Product/Price Start -->
+                    <!-- <div class="cart-product-wrapper mb-6"> -->
+
+                        <!-- Single Cart Product Start -->
+                        <!-- <div class="single-cart-product">
+                            <div class="cart-product-thumb">
+                                <a href="single-product.html"><img src="images/products/small-product/1.jpg"
+                                        alt="Cart Product"></a>
+                            </div>
+                            <div class="cart-product-content">
+                                <h3 class="title"><a href="single-product.html">Brother Hoddies in Grey</a></h3>
+                                <span class="price">
+                                    <span class="new">₹380.50</span>
+                                    <span class="old">₹400.00</span>
+                                </span>
+                            </div>
+                        </div> -->
+                        <!-- Single Cart Product End -->
+
+                        <!-- Product Remove Start -->
+                        <!-- <div class="cart-product-remove">
+                            <a href="#"><i class="fa fa-trash"></i></a>
+                        </div> -->
+                        <!-- Product Remove End -->
+
+                    <!-- </div> -->
+                    <!-- Cart Product/Price End -->
+
+                    <!-- Cart Product/Price Start -->
+                    <!-- <div class="cart-product-wrapper mb-6"> -->
+
+                        <!-- Single Cart Product Start -->
+                        <!-- <div class="single-cart-product">
+                            <div class="cart-product-thumb">
+                                <a href="single-product.html"><img src="images/products/small-product/2.jpg"
+                                        alt="Cart Product"></a>
+                            </div>
+                            <div class="cart-product-content">
+                                <h3 class="title"><a href="single-product.html">Basic Jogging Shorts</a></h3>
+                                <span class="price">
+                                    <span class="new">₹140.50</span>
+                                    <span class="old">₹180.00</span>
+                                </span>
+                            </div>
+                        </div> -->
+                        <!-- Single Cart Product End -->
+
+                        <!-- Product Remove Start -->
+                        <!-- <div class="cart-product-remove">
+                            <a href="#"><i class="fa fa-trash"></i></a>
+                        </div> -->
+                        <!-- Product Remove End -->
+
+                    <!-- </div> -->
+                    <!-- Cart Product/Price End -->
+
+                    <!-- Cart Product/Price Start -->
+                    <div class="cart-product-wrapper mb-6">
+
+                        <!-- Single Cart Product Start -->
+                        <!-- <div class="single-cart-product">
+                            <div class="cart-product-thumb">
+                                <a href="single-product.html"><img src="images/products/small-product/3.jpg"
+                                        alt="Cart Product"></a>
+                            </div>
+                            <div class="cart-product-content">
+                                <h3 class="title"><a href="single-product.html">Enjoy The Rest T-Shirt</a></h3>
+                                <span class="price">
+                                    <span class="new">₹200.00</span>
+                                    <span class="old">₹210.00</span>
+                                </span>
+                            </div>
+                        </div> -->
+                        <!-- Single Cart Product End -->
+ 
+                        <!-- Product Remove Start -->
+                        <!-- <div class="cart-product-remove">
+                            <a href="#"><i class="fa fa-trash"></i></a>
+                        </div> -->
+                        <!-- Product Remove End -->
+
+                    </div>
+                    <!-- Cart Product/Price End -->
+
+                    <!-- Cart Product Total Start -->
+                    <!-- <div class="cart-product-total">
+                        <span class="value">Subtotal</span>
+                        <span class="price">₹720</span>
+                    </div> -->
+                    <!-- Cart Product Total End -->
+
+                    <!-- Cart Product Button Start -->
+                    <!-- <div class="cart-product-btn mt-4">
+                        <a href="cart.html" class="btn btn-dark btn-hover-primary rounded-0 w-100">View cart</a>
+                        <a href="checkout.html" class="btn btn-dark btn-hover-primary rounded-0 w-100 mt-4">Checkout</a>
+                    </div> -->
+                    <!-- Cart Product Button End -->
+
+                </div>
+                <!-- Offcanvas Cart Content End -->
+
+            </div>
+            <!-- Cart Offcanvas Inner End -->
+        </div>
+        <!-- Cart Offcanvas End -->
+
+    </div>
+
+    <!-- Shopping Cart Section Start -->
+    <!--shopping cart area start -->
+    <div class="shopping_cart_area" style="padding-top: 160px;">
+        <div class="container">
+            <form action="#">
+                <div class="cart_page_inner mb-60">
+                    <div class="row">
+                        <h1 class="text-center mb-4" style="margin-top: 50px;">Cart</h1>
+                        <div class="col-12">
+                            <div class="cart_page_tabel">
+                                <table>
+                                    <thead>
+                                        <tr>
+                                            <th>product </th>
+                                            <th>information</th>
+                                            <th>Price</th>
+                                            <th>Quantity</th>
+                                            <th>Total</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr class="border-top">
+                                            <td>
+                                                <div class="cart_product_thumb">
+                                                    <a href="product_detail.html">
+                                                    <a href="product_detail.html">
+                                                    <img class="zoom" src="images/products/large-size/41dErUpKNOL.jpg" width="80px" alt=""></a></a>
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <div class="cart_product_text">
+                                                    <h4>Shirt</h4>
+                                                    <ul>
+                                                        <li><i class="ion-ios-arrow-right"></i> Color : <span>White</span></li>
+                                                        <li><i class="ion-ios-arrow-right"></i> Size : <span>XL</span></li>
+                                                    </ul>
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <div class="cart_product_price">
+                                                    <span>₹450.05</span>
+                                                </div>
+                                            </td>
+                                            <td class="product_quantity">
+                                                <div class="cart_product_quantity">
+                                                    <input min="1" max="100" value="1" type="number" id="quantity1" oninput="updateTotal()">
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <div class="cart_product_price" id="totalPrice">
+                                                    <span>₹450.05</span>
+                                                </div>
+                                            </td>
+                                                <div class="cart_product_remove text-right">
+                                                    <a href="#"><i class="ion-android-close"></i></a>
+                                                </div>
+                                            </td>
+
+                                        </tr>
+                                        <tr class="border-top">
+                                            <td>
+                                                <div class="cart_product_thumb">
+                                                    <a href="product_detail.html">
+                                                    <img class="zoom" src="images/products/large-size/41SoV4lXSoL.jpg" alt=""></a>
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <div class="cart_product_text">
+                                                    <h4>Black and Grey Shirt </h4>
+                                                    <ul>
+                                                        <li><i class="ion-ios-arrow-right"></i> Color : <span>White</span></li>
+                                                        <li><i class="ion-ios-arrow-right"></i> Size : <span>XL</span></li>
+                                                    </ul>
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <div class="cart_product_price">
+                                                    <span>₹450.05</span>
+                                                </div>
+                                            </td>
+                                            <td class="product_quantity">
+                                                <div class="cart_product_quantity">
+                                                    <input min="1" max="100" value="1" type="number" id="quantity2" oninput="updateTotal2()">
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <div class="cart_product_price" id="totalPrice2">
+                                                    <span>₹450.05</span>
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <div class="cart_product_remove text-right">
+                                                    <a href="#"><i class="ion-android-close"></i></a>
+                                                </div>
+                                            </td>
+
+                                        </tr>
+                                        <tr class="border-top">
+                                            <td>
+                                                <div class="cart_product_thumb">
+                                                    <a href="product_detail.html">
+                                                    <img class="zoom" src="images/products/large-size/31UhXKJTefS.jpg" alt=""></a>
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <div class="cart_product_text">
+                                                    <h4>Red and Black Shirt</h4>
+                                                    <ul>
+                                                        <li><i class="ion-ios-arrow-right"></i> Color : <span>White</span></li>
+                                                        <li><i class="ion-ios-arrow-right"></i> Size : <span>XL</span></li>
+                                                    </ul>
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <div class="cart_product_price">
+                                                    <span>₹450.05</span>
+                                                </div>
+                                            </td>
+                                            <td class="product_quantity">
+                                                <div class="quantity mb-5">
+                                                    <input min="1" max="100" value="1" type="number" id="quantity3" oninput="updateTotal3()">
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <div class="cart_product_price" id="totalPrice3">
+                                                    <span>₹450.05</span>
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <div class="cart_product_remove text-right">
+                                                    <a href="#"><i class="ion-android-close"></i></a>
+                                                </div>
+                                            </td>
+
+                                        </tr>
+                                        <tr class="border-top">
+                                            <td>
+                                                <div class="cart_product_thumb">
+                                                    <a href="product_detail.html">
+                                                    <img class="zoom" src="images/products/large-size/81uQ9Z-btCL._AC_UL480_QL65_.jpg" alt=""></a>
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <div class="cart_product_text">
+                                                    <h4>Grey Jacket</h4>
+                                                    <ul>
+                                                        <li><i class="ion-ios-arrow-right"></i> Color : <span>White</span></li>
+                                                        <li><i class="ion-ios-arrow-right"></i> Size : <span>XL</span></li>
+                                                    </ul>
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <div class="cart_product_price">
+                                                    <span>₹450.05</span>
+                                                </div>
+                                            </td>
+                                            <td class="product_quantity">
+                                                <div class="cart_product_quantity"> 
+                                                    <input min="1" max="100" value="1" type="number" id="quantity4" oninput="updateTotal4()">
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <div class="cart_product_price" id="totalPrice4">
+                                                    <span>₹45.05</span>
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <div class="cart_product_remove text-right">
+                                                    <a href="#"><i class="ion-android-close"></i></a>
+                                                </div>
+                                            </td>
+
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <div class="cart_page_button border-top d-flex justify-content-between">
+                                <div class="shopping_cart_btn mb-5">
+                                    <a href="Empty_Cart.html" class="btn btn-primary border">CLEAR SHOPPING CART</a>
+                                    <!-- <button class="btn btn-primary border" type="submit">UPDATE YOUR CART</button> -->
+                                </div>
+                                <div class="shopping_continue_btn mb-5">
+                                    <a href="index.html" class="btn btn-primary" type="submit">CONTINUE SHOPPING</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--coupon code area start-->
+                <div class="cart_page_bottom">
+                    <div class="row">
+                        <!-- <div class="col-lg-1 col-md-6 col-sm-6">
+                            <div class="shopping_coupon_calculate top">
+                                <h3 class="border-bottom">Calculate Shipping </h3>
+                                <select class="select_option border">
+                                    <option value="1">United Kingdom (UK)  </option>
+                                    <option value="2">Åland Islands  </option>
+                                    <option value="3">Afghanistan  </option>
+                                    <option value="4">Belgium </option>
+                                    <option value="5">Albania  </option>
+                                </select>
+                                <input class="border" placeholder="State / Country" type="text">
+                                <input class="border" placeholder="Postcode / Zip" type="text">
+                                <button class="btn btn-primary" type="submit">get a quote</button>
+                            </div>
+                        </div> -->
+                        <!-- <div class="col-lg-4 col-md-6 col-sm-6">
+                            <div class="shopping_coupon_calculate">
+                                <h3 class="border-bottom">Coupon Discount </h3>
+                                <p>Enter your coupon code if you have one.</p>
+                                <input class="border" placeholder="Enter your code" type="text">
+                                <button class="btn btn-primary" type="submit">apply coupon</button>
+                            </div>
+                        </div> -->
+                        <div class="col-lg-12 col-md-12 col-sm-8 mb-5">
+                            <div class="grand_totall_area">
+                                <div class="grand_totall_inner border-bottom">
+                                    <div class="cart_subtotal d-flex justify-content-between">
+                                        <p>sub total </p>
+                                        <span>₹126.00</span>
+                                    </div>
+                                    <div class="cart_grandtotal d-flex justify-content-between">
+                                        <p>grand total</p>
+                                        <span>₹126.00</span>
+                                    </div>
+                                </div>
+                                <div class="proceed_checkout_btn">
+                                    <a class="btn btn-primary" href="Checkout.html">Proceed to Checkout</a>
+                                </div>
+                                <a href="#">Checkout with Mutilple Adresses</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--coupon code area end-->
+            </form>
+        </div>
+    </div>
+    <!--shopping cart area end -->
+    <!-- Shopping Cart Section End -->
+
+    <!-- Footer Section Start -->
+    <footer class="section footer-section">
+        <!-- Footer Top Start -->
+        <div class="footer-top section-padding">
+            <div class="container">
+                <div class="row mb-n10">
+                    <div class="col-12 col-sm-6 col-lg-4 col-xl-4 mb-10" data-aos="fade-up" data-aos-delay="200">
+                        <div class="single-footer-widget">
+                            <h2 class="widget-title">Contact Us</h2>
+                            
+                            <!-- Contact Address Start -->
+                            <ul class="widget-address">
+                                <li><span>Address: </span><p class="desc-content">OFFICE1 ADITYA HERITAGE CO.OP.SOC.LTD OFF LINK ROAD, MIND SPACE, NR.RUSTOMJEE ELANZA.<br> GREATER MUMBAI, MAHARASHTRA-400064</p></li>
+                                <li><span>Call to: </span> <a href="#"> +91 9969451234 </a></li>
+                                <li><span>Mail to: </span> <a href="#"> yourmail@example.com</a></li>
+                            </ul>
+                            <!-- Contact Address End -->
+
+                            <!-- Soclial Link Start -->
+                            <div class="widget-social justify-content-start mt-4">
+                                <a title="Facebook" href="#"><i class="fa-brands fa-facebook"></i></a>
+                                <a title="Instagram" href="#"><i class="fa-brands fa-instagram"></i></a>
+                                <a title="Twitter" href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                                <a title="Pinterest" href="#"><i class="fa-brands fa-pinterest"></i></a>
+                            </div>
+                            <!-- Social Link End -->
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-2 col-xl-2 mb-10" data-aos="fade-up" data-aos-delay="300">
+                        <div class="single-footer-widget">
+                            <h2 class="widget-title">Links</h2>
+                            <ul class="widget-list">
+                                <li><a href="About_Us.html">About Us</a></li>
+                                <li><a href="Terms&Conditions.html">Delivery Information</a></li>
+                                <li><a href="Privacy_policy.html">Privacy Policy</a></li>
+                                <li><a href="Terms&Conditions.html">Terms & Conditions</a></li>
+                                <li><a href="Contact_Us.html">Contact Us</a></li>
+                                <li><a href="Terms&Conditions.html">Return Policy</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- <div class="col-12 col-sm-6 col-lg-2 col-xl-2 mb-10" data-aos="fade-up" data-aos-delay="400">
+                        <div class="single-footer-widget aos-init aos-animate">
+                            <h2 class="widget-title">My Account</h2>
+                            <ul class="widget-list">
+                                <li><a href="account.html">My Account</a></li>
+                                <li><a href="wishlist.html">Wishlist</a></li>
+                                <li><a href="contact.html">Newsletter</a></li>
+                                <li><a href="contact.html">Help Center</a></li>
+                                <li><a href="contact.html">Conditin</a></li>
+                                <li><a href="contact.html">Term Of Use</a></li>
+                            </ul>
+                        </div>
+                    </div> -->
+                    <div class="col-12 col-sm-6 col-lg-4 col-xl-4 mb-10" data-aos="fade-up" data-aos-delay="500">
+                        <div class="single-footer-widget">
+                            <h2 class="widget-title">Newsletter</h2>
+                            <div class="widget-body">
+                                <p class="desc-content mb-0">Get E-mail updates about our latest shop and special
+                                    offers.</p>
+
+                                <!-- Newsletter Form Start -->
+                                <div class="newsletter-form-wrap pt-4">
+                                    <form id="mc-form" class="mc-form">
+                                        <input type="email" id="mc-email" class="form-control email-box mb-4"
+                                            placeholder="Enter your email here.." name="EMAIL">
+                                        <button id="mc-submit" class="newsletter-btn btn btn-primary btn-hover-dark"
+                                            type="submit">Subscribe</button>
+                                    </form>
+                                    <!-- mailchimp-alerts Start -->
+                                    <div class="mailchimp-alerts text-centre">
+                                        <div class="mailchimp-submitting"></div><!-- mailchimp-submitting end -->
+                                        <div class="mailchimp-success text-success"></div><!-- mailchimp-success end -->
+                                        <div class="mailchimp-error text-danger"></div><!-- mailchimp-error end -->
+                                    </div>
+                                    <!-- mailchimp-alerts end -->
+                                </div>
+                                <!-- Newsletter Form End -->
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer Top End -->
+
+        <!-- Footer Bottom Start -->
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-12 text-center">
+                        <div class="copyright-content">
+                            <p class="mb-0">© 2023 Made</i> by <a href="#">Mayank</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer Bottom End -->
+    </footer>
+    <!-- Footer Section End -->
+
+    <!-- Scroll Top Start -->
+    <a href="#" class="scroll-top" id="scroll-top">
+        <i class="arrow-top fa fa-long-arrow-up"></i>
+        <i class="arrow-bottom fa fa-long-arrow-up"></i>
+    </a>
+    <!-- Scroll Top End -->
+
+    <!-- Modal Start  -->
+    <div class="modalquickview modal fade" id="exampleModalCenter" tabindex="-1" role="dialog"
+        aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <button class="btn close" data-bs-dismiss="modal">×</button>
+                <div class="row">
+                    <div class="col-md-6 col-12">
+
+                        <!-- Product Details Image Start -->
+                        <div class="modal-product-carousel">
+
+                            <!-- Single Product Image Start -->
+                            <div class="swiper-container">
+                                <div class="swiper-wrapper">
+                                    <a class="swiper-slide" href="#">
+                                        <img class="w-100" src="images/products/large-size/1.jpg" alt="Product">
+                                    </a>
+                                    <a class="swiper-slide" href="#">
+                                        <img class="w-100" src="images/products/large-size/2.jpg" alt="Product">
+                                    </a>
+                                    <a class="swiper-slide" href="#">
+                                        <img class="w-100" src="images/products/large-size/3.jpg" alt="Product">
+                                    </a>
+                                    <a class="swiper-slide" href="#">
+                                        <img class="w-100" src="images/products/large-size/4.jpg" alt="Product">
+                                    </a>
+                                    <a class="swiper-slide" href="#">
+                                        <img class="w-100" src="images/products/large-size/5.jpg" alt="Product">
+                                    </a>
+                                    <a class="swiper-slide" href="#">
+                                        <img class="w-100" src="images/products/large-size/6.jpg" alt="Product">
+                                    </a>
+                                </div>
+
+                                <!-- Swiper Pagination Start -->
+                                <!-- <div class="swiper-pagination d-md-none"></div> -->
+                                <!-- Swiper Pagination End -->
+
+                                <!-- Next Previous Button Start -->
+                                <div class="swiper-product-button-next swiper-button-next"><i
+                                        class="fa-solid fa-angle-right"></i></div>
+                                <div class="swiper-product-button-prev swiper-button-prev"><i
+                                        class="fa-solid fa-angle-left"></i></div>
+                                <!-- Next Previous Button End -->
+                            </div>
+                            <!-- Single Product Image End -->
+
+                        </div>
+                        <!-- Product Details Image End -->
+
+                    </div>
+                    <div class="col-md-6 col-12 overflow-hidden position-relative">
+
+                        <!-- Product Summery Start -->
+                        <div class="product-summery">
+
+                            <!-- Product Head Start -->
+                            <div class="product-head mb-3">
+                                <h2 class="product-title">Sample product</h2>
+                            </div>
+                            <!-- Product Head End -->
+
+                            <!-- Price Box Start -->
+                            <div class="price-box mb-2">
+                                <span class="regular-price">₹80.00</span>
+                                <span class="old-price"><del>₹90.00</del></span>
+                            </div>
+                            <!-- Price Box End -->
+
+                            <!-- Rating Start -->
+                            <span class="ratings justify-content-start">
+                                <span class="rating-wrap">
+                                    <span class="star" style="width: 100%"></span>
+                                </span>
+                                <span class="rating-num">(4)</span>
+                            </span>
+                            <!-- Rating End -->
+
+                            <!-- SKU Start -->
+                            <div class="sku mb-3">
+                                <span>SKU: 12345</span>
+                            </div>
+                            <!-- SKU End -->
+
+                            <!-- Description Start -->
+                            <p class="desc-content mb-5">I must explain to you how all this mistaken idea of denouncing
+                                pleasure and praising pain was born and I will give you a complete account of the
+                                system, and expound the actual teachings of the great explorer of the truth, the
+                                master-builder of human happiness.</p>
+                            <!-- Description End -->
+
+                            <!-- Product Meta Start -->
+                            <div class="product-meta mb-3">
+                                <!-- Product Size Start -->
+                                <div class="product-size">
+                                    <span>Size :</span>
+                                    <a href=""><strong>S</strong></a>
+                                    <a href=""><strong>M</strong></a>
+                                    <a href=""><strong>L</strong></a>
+                                    <a href=""><strong>XL</strong></a>
+                                </div>
+                                <!-- Product Size End -->
+                            </div>
+                            <!-- Product Meta End -->
+
+                            <!-- Product Color Variation Start -->
+                            <div class="product-color-variation mb-3">
+                                <button type="button" class="btn bg-danger"></button>
+                                <button type="button" class="btn bg-primary"></button>
+                                <button type="button" class="btn bg-dark"></button>
+                                <button type="button" class="btn bg-success"></button>
+                            </div>
+                            <!-- Product Color Variation End -->
+
+                            <!-- Product Meta Start -->
+                            <div class="product-meta mb-5">
+                                <!-- Product Metarial Start -->
+                                <div class="product-metarial">
+                                    <span>Metarial :</span>
+                                    <a href=""><strong>Metal</strong></a>
+                                    <a href=""><strong>Resin</strong></a>
+                                    <a href=""><strong>Lather</strong></a>
+                                    <a href=""><strong>Polymer</strong></a>
+                                </div>
+                                <!-- Product Metarial End -->
+                            </div>
+                            <!-- Product Meta End -->
+
+                            <!-- Quantity Start -->
+                            <div class="quantity mb-5">
+                                <div class="cart-plus-minus">
+                                    <input class="cart-plus-minus-box" value="0" type="text">
+                                    <div class="dec qtybutton"></div>
+                                    <div class="inc qtybutton"></div>
+                                </div>
+                            </div>
+                            <!-- Quantity End -->
+
+                            <!-- Cart & Wishlist Button Start -->
+                            <div class="cart-wishlist-btn pb-4 mb-n3">
+                                <div class="add-to_cart mb-3">
+                                    <a href="Cart.html" class="btn btn-outline-dark btn-hover-primary" href="cart.html">Add to cart</a>
+                                </div>
+                                <div class="add-to-wishlist mb-3">
+                                    <a href="Wishlist.html" class="btn btn-outline-dark btn-hover-primary" href="wishlist.html">Add to
+                                        Wishlist</a>
+                                </div>
+                            </div>
+                            <!-- Cart & Wishlist Button End -->
+
+                            <!-- Social Shear Start -->
+                            <div class="social-share">
+                                <span>Share :</span>
+                                <a href="https://facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                                <a href="https://Instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+                                <a href="https://twitter.com/"><i class="fa-brands fa-x-twitter"></i></a>
+                                <a href="https://Pinterest.com/"><i class="fa-brands fa-pinterest"></i></a>
+                            </div>
+                            <!-- Social Shear End -->
+
+                            <!-- Product Delivery Policy Start -->
+                            <ul class="product-delivery-policy border-top pt-4 mt-4 border-bottom pb-4">
+                                <li> <i class="fa fa-check-square"></i> <span>Security Policy (Edit With Customer
+                                        Reassurance Module)</span></li>
+                                <li><i class="fa fa-truck"></i><span>Delivery Policy (Edit With Customer Reassurance
+                                        Module)</span></li>
+                                <li><i class="fa fa-refresh"></i><span>Return Policy (Edit With Customer Reassurance
+                                        Module)</span></li>
+                            </ul>
+                            <!-- Product Delivery Policy End -->
+
+                        </div>
+                        <!-- Product Summery End -->
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Mobile Menu Code -->
+    <nav class="mobile-menu mobile-nav">
+
+        <a href="index.html" class="mobile-menu-link">
+            <i class="fa-solid fa-house"></i> <span class="nav-text">HOME</span>
+        </a>                                                    
+
+        <a href="shop.html" class="mobile-menu-link">
+            <i class="fa-solid fa-shop"></i> <span class="nav-text">SHOP</span>
+        </a> 
+
+        <!-- <a href="#search" class="mobile-menu-link">
+            <i class="fa-solid fa-magnifying-glass"></i> <span class="nav-text">SEARCH</span>
+        </a> -->
+
+        <a href="Cart.html" class="mobile-menu-link">
+            <i class="fa-solid fa-cart-shopping"></i> <span class="nav-text">CART</span>
+        </a>
+
+        <a href="Wishlist.html" class="mobile-menu-link">
+            <i class="fa-solid fa-heart"></i> <span class="nav-text">WISHLIST</span>
+        </a>
+
+    </nav>
+    <!-- End of Mobile Code -->
+    <!-- Modal End  -->
+
+    <!-- Scripts -->
+    <!-- Scripts -->
+    <!-- Global Vendor, plugins JS -->
+
+    <!-- Vendors JS -->
+
+
+    <script src="js/vendor/bootstrap.bundle.min.js"></script>
+    <script src="js/vendor/jquery-3.6.0.min.js"></script>
+    <script src="js/vendor/jquery-migrate-3.3.2.min.js"></script>
+    <script src="js/vendor/modernizr-3.11.2.min.js"></script>
+
+
+    <!-- Plugins JS -->
+
+
+    <script src="js/plugins/countdown.min.js"></script>
+    <script src="js/plugins/aos.min.js"></script>
+    <script src="js/plugins/swiper-bundle.min.js"></script>
+    <script src="js/plugins/nice-select.min.js"></script>
+    <script src="js/plugins/jquery.ajaxchimp.min.js"></script>
+    <script src="js/plugins/jquery-ui.min.js"></script>
+    <script src="js/plugins/lightgallery-all.min.js"></script>
+    <script src="js/plugins/thia-sticky-sidebar.min.js"></script>
+
+
+    <!--Main JS-->
+    <script src="js/main.js"></script>
+    <script>
+        function incrementQuantity(button) {
+            var input = button.parentNode.querySelector('input');
+            var currentValue = parseInt(input.value);
+            if (currentValue < 20) {
+                input.value = currentValue + 1;
+            }
+        }
+    
+        function decrementQuantity(button) {
+            var input = button.parentNode.querySelector('input');
+            var currentValue = parseInt(input.value);
+            if (currentValue > 1) {
+                input.value = currentValue - 1;
+            }
+        }
+    </script>
+    <script>
+        
+        function updateTotal() {
+            // Get the quantity input element
+            var quantityInput = document.getElementById('quantity1','quantity2');
+
+            // Get the total price element
+            var totalPriceElement = document.getElementById('totalPrice','totalPrice2');
+
+            // Get the price per unit
+            var pricePerUnit = 450.05;
+
+            // Calculate the total price based on the quantity
+            var total = pricePerUnit * quantityInput.value;
+
+            // Update the total price element
+            totalPriceElement.innerHTML = '<span>₹' + total.toFixed(2) + '</span>';
+        }
+
+        function updateTotal2() {
+            // Get the quantity input element
+            var quantityInput = document.getElementById('quantity2');
+
+            // Get the total price element
+            var totalPriceElement = document.getElementById('totalPrice2');
+
+            // Get the price per unit
+            var pricePerUnit = 450.05;
+
+            // Calculate the total price based on the quantity
+            var total = pricePerUnit * quantityInput.value;
+
+            // Update the total price element
+            totalPriceElement.innerHTML = '<span>₹' + total.toFixed(2) + '</span>';
+        }
+
+        function updateTotal3() {
+            // Get the quantity input element
+            var quantityInput = document.getElementById('quantity3');
+
+            // Get the total price element
+            var totalPriceElement = document.getElementById('totalPrice3');
+
+            // Get the price per unit
+            var pricePerUnit = 450.05;
+
+            // Calculate the total price based on the quantity
+            var total = pricePerUnit * quantityInput.value;
+
+            // Update the total price element
+            totalPriceElement.innerHTML = '<span>₹' + total.toFixed(2) + '</span>';
+        }
+
+        function updateTotal4() {
+            // Get the quantity input element
+            var quantityInput = document.getElementById('quantity4');
+
+            // Get the total price element
+            var totalPriceElement = document.getElementById('totalPrice4');
+
+            // Get the price per unit
+            var pricePerUnit = 450.05;
+
+            // Calculate the total price based on the quantity
+            var total = pricePerUnit * quantityInput.value;
+
+            // Update the total price element
+            totalPriceElement.innerHTML = '<span>₹' + total.toFixed(2) + '</span>';
+        }
+    
+    </script>
+
+</body>
+
+</html>
